@@ -1,4 +1,5 @@
-# Repo for practicing fetch data display it using vanilla javascript, and UI libraries
+# Fetch data and display it
+### Repo for practicing using vanilla javascript, and UI libraries
 
 For all playgrounds use `git clone` repo
 ### Vanilla JS
