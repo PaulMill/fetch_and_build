@@ -6,5 +6,26 @@ main {
 }
 .photo-list-container {
     flex: 1;
+    width: 100%;
 }
 footer { min-height: 50px; }
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
