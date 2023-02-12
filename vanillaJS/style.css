@@ -1,0 +1,10 @@
+main {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction:column; 
+}
+.photo-list-container {
+    flex: 1;
+}
+footer { min-height: 50px; }
