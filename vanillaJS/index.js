@@ -3,6 +3,10 @@
     // It need to show on page thumbnails with photos, but on photo click it need to redirect to show full size of photo at new tab
     // each photo should contain title on the top of thumbnail
 
+    // Optional: When data is fetched first time additional button should be attached with text `Next Album` and existing button text should be changed to `Prev Album`
+    // But when user return back to album number 1 button Prev Album should be disabled. Only Next Album should be enabled 
+    // And add CSS using javascript to make it nice and change card background on hover
+
     // constants
     const apiUrl = 'https://jsonplaceholder.typicode.com/albums/1/photos';
     const textNoPhotos = 'User does not have any photos';
@@ -51,6 +55,4 @@
     }
     // event listeners
     buttonSubmitEl.addEventListener('click', fetchData);
-
-
 })();
